@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../asset/restaurant-bgi.png);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+/*working with navigation bar*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+    margin-top: 20px;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600px;
+    gap: 50px;
+    font-size: 25px;
+    list-style: none;
+}
+nav ul li a{
+    color:#ffc233;
+    text-decoration: none;
+}
+/*working with buttons*/
+.order{
+    background-color:#ff505f;
+    color: #fff;
+    /* width: fit-content; */
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    background-color:#ff505f;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*working with body content h1 etc*/
+.slogan{
+    color: #ffc233;
+    font-size: 80px;
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 80px;
+    margin-top: 50px;
+} 
+.head_and_btn{
+ text-align: center;
+}
+/*fixed image*/
+.scrol{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+

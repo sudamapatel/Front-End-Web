@@ -1,0 +1,200 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 1, 25);
+    color: #fff;
+}
+/*decoration of navigation bar*/
+nav{
+    background-color: rgb(1, 1, 25);
+    margin-top: 10px;
+    margin-right: 6px;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    
+}
+nav ul li{
+    list-style: none;
+} 
+img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 5px;
+}
+nav a:hover{
+    background-color: rgb(43, 43, 232);
+    border-radius: 10px;
+    font-size: 17px;
+}
+/*image processing*/
+img[alt="wave-hand"]{
+    height: 45px;
+   float: left;
+}
+img[alt="project-avatar"]{
+    height: 250px;
+    width: 300px;
+}
+img[alt="pc-img"]{
+    /* height: 350px;
+    width: 350px; */
+    width: 30vw;
+}
+img[alt="social"]{
+    width: 30px;
+}
+/*working with main sec1 body*/
+.sec1{
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sec1 .leftdiv .leftdiv1{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.sec1 .leftdiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.sec1 .leftdiv2 h1{
+    font-size: 60px;
+}.sec1 .leftdiv2 h2{
+    font-size: 40px;
+    color: rgb(165, 165, 60);
+}
+ 
+
+/*working with section2*/
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec2 .line{
+    height: 5px;
+    width:140px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.sec2 div h1{
+    font-size: 40px;
+}  
+.sec2 .project-list{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    gap: 20px;
+}
+.project-list p{
+   text-align: center;
+}
+/*font awesome*/
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact .line{
+    height: 5px;
+    width: 205px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.socialicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*media query for the phone size**/
+@media screen and (max-width:576px){
+    nav ul{
+        display: none;
+    }
+    img[alt="menu"]{
+        display: block;
+    }
+    .sec1{
+        display: flex;
+        flex-direction: column;
+    }
+    img[alt="pc-image"]{
+        width: 60vw;
+    }
+    .sec1 .leftdiv .leftdiv1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .sec1 .leftdiv2 h1{
+        font-size: 40px;
+    }
+    .sec1 .leftdiv2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 20px; 
+    }
+    .project-list .project{
+        display: grid;
+        flex-direction: column;
+    }
+    img[alt="project-avatar"]{
+        width: 40vw;
+    }
+    .sec2 div h1{
+        font-size: 35px;
+    }
+    .contact h1{
+        font-size: 35px;
+    }
+    .line{
+        height: 10px;
+        width: 180px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+} 
