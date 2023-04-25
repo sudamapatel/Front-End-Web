@@ -1,0 +1,345 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  body {
+    margin: 0 15vw;
+  }
+  /*designing nav bar*/
+  nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    justify-content: space-between;
+  }
+ nav a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #1e1e21;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px gray;
+}
+/*designing nav bar image*/
+.sec1{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+.mainImage{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+img[alt="mainImage"]{
+    height: 550px;
+    width: 250px;
+}
+.mainContent{
+    margin-left: 200px;
+}
+img[alt="onEar"]{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.mainContent h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}.mainContent h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.mainContent p{
+    width: 65%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+/*shoping bags*/
+.mainContent .bag{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #1e1e21;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.bag img{
+    width: 15px;
+    background-color: transparent;
+}
+.bag p{
+    background-color: transparent;
+    margin-bottom: 0;
+    color: white;
+
+}
+.bag span{
+    font-size: 20px;
+    background-color: transparent;
+}
+/*social Media image designing */
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+/*specification*/
+.specs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.specsHead{
+    display: flex;
+    justify-content: center;
+}
+.specification div:nth-child(1){
+    margin-left: 50px;
+}
+.specification div:nth-child(4){
+    margin-left: 50px;
+}
+.specification div{
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+img[alt="specsImage"]{
+    height: 60vh;
+}
+.specification img{
+    scale: 1;/*increasing size of icons*/
+}
+/*designing case sec4*/
+.sec4 .case{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.caseDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 70px;
+    padding: 20px 150px;
+}
+img[alt="caseImage"]{
+    height: 340px;
+    width: 250px;
+}
+#text{
+    width: 33%;
+    line-height: 35px;
+}
+.moreInfo{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px ;
+    border: transparent;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px black,0px 0px 1px white; */
+    background-color: #1e1e21;
+   
+}
+.moreInfo p{
+    background-color: transparent;
+}
+img[alt="group"]{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+}
+/*designing Immenece Music sec5 */
+.sec5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+    background-color:#1e1e21;
+    border-radius: 20px;
+}
+.immence{
+    width: 40%;
+    line-height: 40px;
+}
+/*buynow button*/
+.immence .buyNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 20px;
+    padding:5px 0 ;
+    border-radius: 10px;
+    background-color: #181a1b;
+}
+/*buy now image and section 5 transparant*/
+img[alt="shoppingBag"]{
+    height: 20px;
+    width: 20px;
+}
+.sec5 div,.sec5 img,.immence h1,.immence p{
+    background-color: transparent;
+}
+/*working on section 6 Choose your style*/
+.sec6product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    margin-bottom: 100px;
+}
+.productLogo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    height: 80px;
+    width: 200px;
+}
+/*propduct headphone Image designing*/
+.product-img{
+    height: 150px;
+    width: 120px;
+}
+.productList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.productCard {
+    position: relative;
+    width: 150px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+  }
+ .product-img{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+ }
+.productCard img,
+.productCard p,
+.productCard div{
+    background-color: transparent;
+}
+.productInfo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+    line-height: 22px;
+  }
+  .productInfo p span {
+    color: #bdc0c2;
+  }
+
+  /*footer designing*/
+  footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+
+  }
+  footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer li:first-child a{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+  footer li:first-child{
+    margin-bottom: 10px;
+  }
+  footer li{
+    list-style: none;
+  }
+  footer li a{
+    font-size: 12px;
+  color: #BDC0C2;
+    text-decoration: none;
+  }
+  .subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* .subscribe div:first-child{
+    background: #181A1B;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+  }
+  .subscribe div:first-child input{
+    border: none;
+    background-color: transparent;
+  } */
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .subscribe-button img{
+    scale: 0.8;
+    margin-right: 10px;
+  }
+ .upArrow{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }
